@@ -1,2 +1,4 @@
 # Yelp-sentiment-analyzer
 a sentiment analyzer for yelp restaurant reviews in Berkeley
+
+This project involved creating a sentiment analyzer for Yelp reviews of restaurants around the Berkeley area in California. I gained experience using BeautifulSoup, a HTML-parser library through Python, and bridging that with natural language processing (through the NLTK library). I used a few algorithms such as logistic regression and random forests to classify the ratings of restaurants, and was able to achieve considerable accuracy even on neutral ratings (as opposed to just 100% positive and 100% negative reviews!) I hope th expand on this project by possibly incorporating bayesian inference, and I incorporated feature selection by means of the TF-IDF weight algorithm (to sieve for indicative keywords related to the type of sentiment). Since TF-IDF can also be used as feature selection/engineering, this could be incorporated into a bayesian-inference framework as well.
